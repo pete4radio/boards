@@ -110,6 +110,7 @@
 #define DRVOFF_4 (27)
 #endif
 
+//SPI0 TX
 #ifndef SDO0
 #define SDO0 (32)
 #endif
@@ -122,6 +123,7 @@
 #define MOTOR_EN (34)
 #endif
 
+//  SPI0 RX
 #ifndef SDI0
 #define SDI0 (35)
 #endif
@@ -130,20 +132,42 @@
 #define SDA_PWR (36)
 #endif
 
+//  I2C0 SDA
+#ifndef SDA0
+#define SDA0 (36)
+#endif
+
+
 #ifndef SCL_PWR
 #define SCL_PWR (37)
+#endif
+
+#ifndef SCL0
+#define SCL0 (37)
 #endif
 
 #ifndef SCLK0
 #define SCLK0 (38)
 #endif
 
+#ifndef NEOPIXEL
+#define NEOPIXEL (39)
+#endif
+
 #ifndef MOTOR_TX
 #define MOTOR_TX (40)
 #endif
 
+#ifndef UART1_TX
+#define UART1_TX (40)
+#endif
+
 #ifndef MOTOR_RX
 #define MOTOR_RX (41)
+#endif
+
+#ifndef UART1_RX
+#define UART1_RX (41)
 #endif
 
 #ifndef WATCHDOG_FEED
