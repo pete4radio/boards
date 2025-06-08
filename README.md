@@ -8,13 +8,21 @@ of the board's functionality.
 
   -------------------- -----------------------
   Board Name           Comment
+
   SAMWISE              SSI-provided software
+
   P3_6b                Original
+
   PiCubed              Current
+
   ADCS                 Current
+
   Motor                Current
+
   \<MCU\>\<Pinout\>    The test pucks
+
   Pico                 Bare board
+  
   Pico2                Bare board
   -------------------- -----------------------
 
